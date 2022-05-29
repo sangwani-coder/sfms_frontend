@@ -35,7 +35,7 @@ class App extends Component {
 componentDidMount() {
   console.log(this.state.id)
 
-    axios.get(`/api/v1/history?id=2`)
+    axios.get("/api/v1/history?id=2")
       .then((res) => {
         const payments = res.data;
         var newPayments = this.state.payments.concat([payments]);
