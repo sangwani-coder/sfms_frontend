@@ -13,8 +13,8 @@ const Layout = () => {
 
   return (
       <div>
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a href="#" class="navbar-brand">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+  <a href="#about" class="navbar-brand">
             <img src={logo} height="28" alt="logo"/>
     </a>
   <Link to={'/'} className="nav-link active"  aria-current="page" ><h1>SkoolPay</h1></Link>
