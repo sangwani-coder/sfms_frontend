@@ -6,12 +6,6 @@ import banner from "../assets/banner2.jpg";
 import PayGif from "../assets/payment.gif";
 import AdmGif from "../assets/admin.gif";
 import HisImg from "../assets/history.jpg";
-import {
-  faLinkedIn,
-  faTwitter,
-  faGithub,
-  FontAwesomeIcon
-} from "@fortawesome/react-fontawesome";
 
 
 const Landing = () => {
@@ -24,7 +18,7 @@ const Landing = () => {
               <h5>That lets Schools collect students fees online and automatically add students to the database.</h5>
               <h5>Students pay quickly using Mobile Money.</h5>
           </div>
-          <div>
+          <div className="container">
                 <img className="embed-responsive-item" src={banner} alt="banner"/>
           </div>
 
@@ -100,6 +94,7 @@ const Landing = () => {
               I have worked on desktop, web and mobile applications.
               <br/>
               <br/>
+              <h4 id="social"> Social Follow</h4>
               <div className="row social-container" id="contact">
                     <div className="col-sm-4">
                       <a href='https:www.linkedin.com/in/sangwani-pz' className='LinkedIn social'>LinkedIn
