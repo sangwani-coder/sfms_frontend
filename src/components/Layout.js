@@ -12,7 +12,7 @@ const Layout = () => {
   }, []);
 
   return (
-      <>
+      <div>
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a href="#" class="navbar-brand">
             <img src={logo} height="28" alt="logo"/>
@@ -52,7 +52,7 @@ const Layout = () => {
 </div>
 </nav>
 <Outlet/>
-</>
+</div>
   )
 };
 

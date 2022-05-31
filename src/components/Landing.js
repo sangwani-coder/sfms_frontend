@@ -21,8 +21,8 @@ const Landing = () => {
         <div className="container">
          <div className="jumbotron text-center">
               <h2>A Student Fees Mangement System</h2>
-              <h5>Allows Schools collect Tuition Fees online</h5>
-              <h5>Students and Parents Pay using Mobile Money</h5>
+              <h5>That lets Schools collect students fees online and automatically add students to the database.</h5>
+              <h5>Students pay quickly using Mobile Money.</h5>
           </div>
           <div>
                 <img className="embed-responsive-item" src={banner} alt="banner"/>
@@ -33,19 +33,19 @@ const Landing = () => {
               <div className="jumbotron text-center">
                 <h1 id="features">FEATURES</h1>
                 <h3> Making Payments</h3>
-                <p>Students can easily make points online using MTN mobile money</p>
+                <p>Students can easily make payments online using MTN mobile money.</p>
                 <img src={PayGif} alt="student payment gif"/>
                 <br/>
                 <br/>
                 <br/>
                 <h3> Adding Payment</h3>
-                <p>Site administrators can add student payments </p>
+                <p>Site administrators can add student payments.</p>
                 <img src={AdmGif} alt="admin payment gif"/>
                 <br/>
                 <br/>
                 <br/>
                 <h3> History</h3>
-                <p>Students can view a history of their transactions</p>
+                <p>Students can view a history of their transactions.</p>
                 <img src={HisImg} alt="student history"/>
               </div>
           </div>
@@ -56,10 +56,10 @@ const Landing = () => {
               <p>This is my portfolio project for <a target="blank" href="https://www.holbertonschool.com/">Holberton School</a></p>
               Currently in Zambia most learning institutions now only recieve payments through the bank, we are faced with the following problems:
               <ul>
-                <li> Long bank queues that leads to loss of many productive hours </li>
-                <li> Labour-intensive tasks for schools such as recording and keeping track hundreds of bank slips</li>
-                <li> Labour-intensive tasks for bank tellers of handling hundreds of student bill payments in a week</li>
-                <li> Student's pressure of keeping bank slips and paper receipts </li>
+                <li> Long bank queues that leads to loss of many productive hours.</li>
+                <li> Labour-intensive tasks for schools such as recording and keeping track hundreds of bank slips.</li>
+                <li> Labour-intensive tasks for bank tellers of handling hundreds of student bill payments in a week.</li>
+                <li> Student's pressure of keeping bank slips and paper receipts.</li>
               </ul>
               The project was inspired by the neeed to make the management of student fees more efficient. This project will benefit students, parents, schools
               and banks. The following are some of the benefits of this application:
@@ -101,20 +101,19 @@ const Landing = () => {
               <br/>
               <br/>
               <div className="row social-container" id="contact">
-                <h3>Social Follow</h3>
                     <div className="col-sm-4">
-                      <a href='https:www.linkedin.com/in/sangwani-pz' className='LinkedIn social'>
+                      <a href='https:www.linkedin.com/in/sangwani-pz' className='LinkedIn social'>LinkedIn
                         <FontAwesomeIcon icon="fab fa-LinkedIn" size="2x"/>
                       </a>
 
                     </div>
                     <div className="col-sm-4">
-                    <a href="https://www.twitter.com/sangwani_zyambo" className="twitter social">
+                    <a href="https://www.twitter.com/sangwani_zyambo" className="twitter social">Twitter
                       <FontAwesomeIcon icon="fab fa-Twitter" size="2x" />
                     </a>
                     </div>
                     <div className="col-sm-4">
-                    <a href="https://www.gihub.com/sangwani-coder" className="github social">
+                    <a href="https://www.gihub.com/sangwani-coder" className="github social">Github
                       <FontAwesomeIcon icon="fab fa-Github" size="2x" />
                     </a>
                     </div>
